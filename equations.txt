@@ -5,7 +5,7 @@
 "platter_radius"= "platter_diameter" / 2
 "extruder_mount_hole_spacing"= 75
 "arm_rod_spacing"= 40
-"top_frame_rod_spacing"= "arm_rod_spacing" + 40
+"top_frame_spacing"= 90
 "motor_level_rod_spacing"= 15
 "linear_bearing_diameter"= 15
 "z_rod_spacing"= 75
@@ -16,3 +16,14 @@
 "gear_pitch"=2
 "r_gear_teeth"= 450
 "theta_gear_teeth"= 385
+"sheet_thickness"=5
+"sheet_tab_hole_thickness"= "sheet_thickness"
+"sheet_tab_width"= "sheet_thickness"*2
+"sheet_bolt_diameter"= 3
+"sheet_bolt_length"= 16
+"sheet_nut_diameter"= 5.5
+"sheet_nut_thickness"= 2.5
+"sheet_nut_depth"= 10
+"bearing_outside_diameter"= 22
+"bearing_thickness"= 7
+"corner_part_thickness"= "sheet_thickness" + "bearing_thickness"
